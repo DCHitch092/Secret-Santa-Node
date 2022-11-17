@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <h1>{{ owner }}'s List!</h1>
+    <ul>
+      {{#each picks}}
+      <li><b>{{gift_buyer}}</b> is buying for... <em>{{gift_receiver}}</em></li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
